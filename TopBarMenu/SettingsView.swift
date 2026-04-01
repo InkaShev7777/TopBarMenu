@@ -1,13 +1,6 @@
-//
-//  ContentView.swift
-//  TopBarMenu
-//
-//  Created by Ilya Schevchenko on 01.04.2026.
-//
-
 import SwiftUI
 
-struct ContentView: View {
+struct SettingsView: View {
     var body: some View {
         VStack {
             Image(systemName: "globe")
@@ -20,5 +13,5 @@ struct ContentView: View {
 }
 
 #Preview {
-    ContentView()
+    SettingsView()
 }
